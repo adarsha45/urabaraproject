@@ -1,6 +1,5 @@
 import React from 'react';
-import backgroundimg from "./images/heroo.png";
-
+import backgroundimg from './images/heroo.png';
 
 const App = () => {
   return (
@@ -15,7 +14,7 @@ const App = () => {
             <li>Gallery</li>
             <li>About</li>
             <li>Contact</li>
-            <li>Map</li>
+            <li>Mapjkdhfkjfdh</li>
           </ul>
           {/* <!--mobile muji--> */}
           <div className="md:hidden flex pr-5">
@@ -48,7 +47,7 @@ const App = () => {
       {/* <!--image--> */}
       <div
         className="h-screen bg-cover bg-top-right bg-fixed flex overflow-hidden justify-center items-center "
-        style={{ backgroundImage: `url(${backgroundimg})`  }}
+        style={{ backgroundImage: `url(${backgroundimg})` }}
       >
         <div className="flex flex-col gap-10">
           <div className="text-lg font-bold font-family-Luxurious Script text-white">
